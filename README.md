@@ -1,4 +1,4 @@
-# Spring Boot Project with Spring Security, JWT, and Filters
+# Spring Boot Project with Spring Security,H2 Database, JWT, and Filters
 
 This project is a boilerplate for building secure REST APIs using **Spring Boot**, **Spring Security**, **JWT (JSON Web Tokens)**, and custom **filters**. It provides features like user authentication, role-based authorization, and request validation.
 
