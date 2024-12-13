@@ -1,4 +1,4 @@
-package com.quizweb.quiz.fucntions;
+	package com.quizweb.quiz.fucntions;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

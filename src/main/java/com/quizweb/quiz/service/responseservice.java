@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.quizweb.quiz.dao.questionsdao;
-import com.quizweb.quiz.fucntions.question;
+
 import com.quizweb.quiz.fucntions.response;
 
 import java.util.*;
