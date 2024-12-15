@@ -1,5 +1,7 @@
 package com.quizweb.quiz;
 
+import java.sql.SQLException;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -40,6 +42,12 @@ public class QuizApplication {
 		return http.build();
 
 	}
+
+	// @Bean(initMethod = "start", destroyMethod = "stop")
+	// public org.h2.tools.Server h2WebConsoleServer() throws SQLException {
+	// return org.h2.tools.Server.createWebServer("-web", "-webAllowOthers",
+	// "-webDaemon", "-webPort", "8080");
+	// }
 
 	@Bean
 	public WebMvcConfigurer wec() {
