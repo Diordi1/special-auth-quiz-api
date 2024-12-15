@@ -29,7 +29,7 @@ public class QuizApplication {
 	@Bean
 	public SecurityFilterChain sec(HttpSecurity http) throws Exception {
 		http.authorizeHttpRequests(
-				http1 -> http1.requestMatchers("/questions/**", "/quiz/**").authenticated()
+				http1 -> http1.requestMatchers("/questions/**", "/quiz/**", "/h2-console/**").authenticated()
 						.anyRequest().permitAll());
 		http.httpBasic();
 		http.addFilterBefore(new jwtfilter(), BasicAuthenticationFilter.class);
